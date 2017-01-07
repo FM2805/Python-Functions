@@ -4,6 +4,14 @@ Created on Sat Feb 14 12:51:36 2016
 
 @author: FloM
 """
+
+"""
+With this file, one can parse json data and bring it into "long-form" (i.e. each
+row corresponds to one observation).
+The sample data used here (provided in the repository) is from Deutsche Bahn, tracking its trains 
+with GPS singnals. The info is stored in json format.
+"""
+
 import json
 import pandas as pd
 from timeit import default_timer
