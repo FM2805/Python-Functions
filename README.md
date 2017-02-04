@@ -1,1 +1,1 @@
-Useful Python (Version 3.x) functions
+Useful Python (version 3.x) functions
